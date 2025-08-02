@@ -1,0 +1,7 @@
+config SHIELD_DASBOB_LEFT
+    bool "Dasbob Left Shield"
+    def_bool $(shields_list_contains, dasbob_left)
+
+config SHIELD_DASBOB_RIGHT
+    bool "Dasbob Right Shield"
+    def_bool $(shields_list_contains, dasbob_right)
